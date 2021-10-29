@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a backend program that allows the user to upload and edit code"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is a place to upload and share code, it can be easily uploaded to from git"
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+let init = ("Initialized the git repository, which gives a place for code to be uploaded from", "git init");
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let clone = ("creates a duplicate of thegit repository", "git clone");
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +50,7 @@
 */
 
 //CODE HERE
-
+let status = ("reveals inforation about the git repository", "git status");
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +58,7 @@
 */
 
 //CODE HERE
-
+let add = ("adds a file or files to the git repository", "git add (file name or . for all)");
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +66,7 @@
 */
 
 //CODE HERE
-
+let commit = ("adds a comment to git repository", 'git commit -m "add needed comment"');
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +75,4 @@
 */
 
 //CODE HERE
+let push = ("uploads the git repository to github", "git push");
